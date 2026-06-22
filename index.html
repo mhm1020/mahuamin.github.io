@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -443,3 +444,455 @@
     <script src="script.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="马华敏 — 四川大学计算机科学与技术本科生，研究兴趣：数据挖掘 · 多模态学习 · 世界模型">
+    <meta name="keywords" content="马华敏,数据挖掘,多模态学习,世界模型,机器学习,四川大学">
+    <meta name="author" content="马华敏">
+    <meta property="og:title" content="马华敏 | Huamin Ma">
+    <meta property="og:description" content="四川大学CS本科生 | 正在寻找AI/ML方向的科研机会">
+    <meta property="og:type" content="website">
+    <title>马华敏 Huamin Ma | 个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Huamin Ma</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== Hero ===== -->
+    <header id="home" class="hero">
+        <canvas id="particles"></canvas>
+        <div class="hero-container">
+            <div class="hero-avatar">
+                <svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1"/>
+                            <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="70" cy="70" r="66" fill="none" stroke="url(#avatarGrad)" stroke-width="3" opacity="0.35"/>
+                    <circle cx="70" cy="50" r="26" fill="url(#avatarGrad)" opacity="0.22"/>
+                    <ellipse cx="70" cy="108" rx="46" ry="26" fill="url(#avatarGrad)" opacity="0.22"/>
+                </svg>
+            </div>
+            <h1 class="hero-name">马华敏 <span class="hero-name-en">Huamin Ma</span></h1>
+            <p class="hero-subtitle">Undergraduate · Computer Science · Sichuan University</p>
+            <p class="hero-affiliation">
+                <i class="fas fa-map-marker-alt"></i> 四川大学 · 计算机科学与技术 · 2024级
+            </p>
+            <p class="hero-bio">
+                Research Interests: <strong>Data Mining</strong> · <strong>Multimodal Learning</strong> · <strong>World Models</strong>
+            </p>
+            <div class="hero-links">
+                <a href="mailto:2024141460317@stu.scu.edu.cn" class="hero-link-item">
+                    <i class="fas fa-envelope"></i> 2024141460317@stu.scu.edu.cn
+                </a>
+                <a href="cv.pdf?v=20260622c" target="_blank" class="hero-link-item">
+                    <i class="fas fa-file-alt"></i> CV / 简历
+                </a>
+            </div>
+            <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- ===== About ===== -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I am an undergraduate student in <strong>Computer Science and Technology</strong> at
+                            <strong>Sichuan University</strong>, with a solid foundation in mathematics and
+                            a strong interest in deep learning and artificial intelligence.
+                        </p>
+                        <p>
+                            My current academic interests include <span class="highlight">Data Mining</span>,
+                            <span class="highlight">Multimodal Learning</span>, and
+                            <span class="highlight">World Models</span>.
+                            I am particularly interested in how intelligent systems learn useful
+                            representations from data and generalize to complex real-world tasks.
+                        </p>
+                        <p>
+                            I am currently involved in research on wind power forecasting, where I am
+                            learning deep learning and experiencing the process of conducting research. I hope to
+                            join a research lab where I can broaden my knowledge, strengthen my research
+                            skills, and gain exposure to different areas of artificial intelligence.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="stat-value">3.71 <small>/ 4.0</small></div>
+                            <div class="stat-label">GPA (Top 10%)</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-language"></i></div>
+                            <div class="stat-value-english">
+                                <span>CET-4 <strong>522</strong></span>
+                                <span class="stat-divider">/</span>
+                                <span>CET-6 <strong>456</strong></span>
+                            </div>
+                            <div class="stat-label">English Proficiency</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon"><i class="fas fa-award"></i></div>
+                            <div class="stat-value">2</div>
+                            <div class="stat-label">Scholarships (2025)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Education ===== -->
+        <section id="education" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+
+                <div class="edu-timeline">
+                    <div class="edu-card">
+                        <div class="edu-badge">2024 – Present</div>
+                        <div class="edu-content">
+                            <h3>Sichuan University <span class="edu-location">四川大学</span></h3>
+                            <p class="edu-degree">Undergraduate in Computer Science and Technology</p>
+                            <p class="edu-gpa">GPA: <strong>3.71 / 4.0</strong> (Top 10%)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Core Coursework</h3>
+                <div class="courses-grid">
+                    <div class="course-item">
+                        <div class="course-info">
+                            <i class="fas fa-robot course-icon"></i>
+                            <span>Artificial Intelligence Foundation</span>
+                        </div>
+                        <span class="score">94</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <i class="fas fa-chart-bar course-icon"></i>
+                            <span>Probability &amp; Statistics</span>
+                        </div>
+                        <span class="score">93</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <svg class="course-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 Q8 6 12 12 Q16 18 20 4"/><line x1="4" y1="20" x2="20" y2="20"/></svg>
+                            <span>Calculus</span>
+                        </div>
+                        <span class="score">95</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <svg class="course-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4" r="2"/><line x1="12" y1="6" x2="8" y2="13"/><line x1="12" y1="6" x2="16" y2="13"/><circle cx="8" cy="13" r="2"/><circle cx="16" cy="13" r="2"/><line x1="8" y1="15" x2="5" y2="22"/><line x1="8" y1="15" x2="11" y2="22"/><line x1="16" y1="15" x2="13" y2="22"/><line x1="16" y1="15" x2="19" y2="22"/></svg>
+                            <span>Data Structures &amp; Algorithms</span>
+                        </div>
+                        <span class="score">92</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <svg class="course-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="7" height="7" rx="0.5"/><rect x="14" y="4" width="7" height="7" rx="0.5"/><rect x="3" y="14" width="7" height="7" rx="0.5"/><rect x="14" y="14" width="7" height="7" rx="0.5"/></svg>
+                            <span>Linear Algebra</span>
+                        </div>
+                        <span class="score">91</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <svg class="course-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="10" r="5"/><circle cx="15" cy="10" r="5"/><circle cx="12" cy="15" r="4.5"/></svg>
+                            <span>Discrete Mathematics</span>
+                        </div>
+                        <span class="score">88</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <svg class="course-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><text x="12" y="16.5" text-anchor="middle" font-size="8" font-weight="bold" fill="currentColor" stroke="none" font-family="monospace">C++</text></svg>
+                            <span>OOP (C++)</span>
+                        </div>
+                        <span class="score">88</span>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">Honors &amp; Awards</h3>
+                <div class="honors-list">
+                    <div class="honor-item"><i class="fas fa-medal"></i> National Endeavor Scholarship (国家励志奖学金) · 2025</div>
+                    <div class="honor-item"><i class="fas fa-trophy"></i> University First-Class Individual Scholarship (学校单项一等奖) · 2025</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Research ===== -->
+        <section id="research" class="section">
+            <div class="container">
+                <h2 class="section-title">Research Experience</h2>
+
+                <div class="research-list">
+                    <article class="research-card">
+                        <div class="research-header">
+                            <span class="research-badge">2026</span>
+                            <h3>Stage-wise NWP Integration for Wind Power Forecasting</h3>
+                        </div>
+                        <p class="research-role">
+                            <i class="fas fa-user-tie"></i> Principal Investigator · Undergraduate Innovation Training Program
+                        </p>
+                        <p class="research-desc">
+                            Investigated the role of Numerical Weather Prediction (NWP) information at different
+                            stages of wind power forecasting, addressing the lack of a unified understanding of
+                            NWP integration strategies. Proposed a stage-wise framework that incorporates NWP
+                            through <em>representation learning</em>, <em>latent-level fusion</em>, and
+                            <em>forecast correction</em>, together with an NWP bias-correction strategy to
+                            improve forecast quality. Conducted extensive experiments across multiple forecasting
+                            horizons, NWP error levels, and wind fluctuation scenarios to evaluate the strengths
+                            and limitations of different integration stages. Preliminary results demonstrate that
+                            the choice of NWP integration stage significantly affects forecasting accuracy and
+                            model robustness, providing practical guidance for the design of NWP-aware wind
+                            power forecasting models.
+                        </p>
+                        <div class="research-tags">
+                            <span>Time Series</span>
+                            <span>Representation Learning</span>
+                            <span>Feature Fusion</span>
+                            <span>NWP</span>
+                        </div>
+                    </article>
+
+                    <article class="research-card">
+                        <div class="research-header">
+                            <span class="research-badge">2025</span>
+                            <h3>NIPT-Based Fetal Anomaly Detection &amp; Optimal Screening Timing</h3>
+                        </div>
+                        <p class="research-role">
+                            <i class="fas fa-code"></i> Programmer · CUMCM Mathematical Modeling Contest
+                        </p>
+                        <p class="research-desc">
+                            To address a noninvasive prenatal testing optimization problem in the 2025 CUMCM,
+                            1) <em><strong>multiple regression</strong></em> was used to model and test the
+                            relationship between DNA concentration, gestational age, and BMI;
+                            2) <em><strong>K-means clustering</strong></em> was employed to optimize the
+                            timing through BMI grouping;
+                            3) <em><strong>random survival forest</strong></em> was utilized to integrate
+                            age and height for predicting success rates, optimizing the detection window
+                            and handling censored data;
+                            4) <em><strong>random forest classification</strong></em> was applied to
+                            achieve high-dimensional discrimination of trisomy in female fetuses.
+                        </p>
+                        <div class="research-tags">
+                            <span>Mathematical Modeling</span>
+                            <span>K-means</span>
+                            <span>Random Survival Forest</span>
+                            <span>Random Forest</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Research Interests ===== -->
+        <section id="interests" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Research Interests</h2>
+                <p class="section-subtitle">
+                    Research Areas I Want to Explore
+                </p>
+
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <div class="interest-icon"><i class="fas fa-database"></i></div>
+                        <h3>Data Mining</h3>
+                        <p>
+                            Interested in understanding data, discovering hidden patterns, and building
+                            intelligent systems that can learn from experience.
+                        </p>
+                        <div class="interest-topics">
+                            <span>Representation Learning</span>
+                            <span>Pattern Discovery</span>
+                            <span>Knowledge Extraction</span>
+                        </div>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-icon"><i class="fas fa-layer-group"></i></div>
+                        <h3>Multimodal Learning</h3>
+                        <p>
+                            Curious about how information from different modalities can be combined to
+                            improve understanding and decision making. Exploring vision-language models
+                            and multimodal representation learning.
+                        </p>
+                        <div class="interest-topics">
+                            <span>Vision-Language</span>
+                            <span>Cross-modal Learning</span>
+                            <span>Representation Learning</span>
+                        </div>
+                    </div>
+
+                    <div class="interest-card">
+                        <div class="interest-icon"><i class="fas fa-globe-americas"></i></div>
+                        <h3>World Models</h3>
+                        <p>
+                            Interested in how AI systems build structured representations of the physical
+                            world, enabling spatial reasoning, scene understanding, and interaction with
+                            complex environments.
+                        </p>
+                        <div class="interest-topics">
+                            <span>Spatial Intelligence</span>
+                            <span>3D Scene Understanding</span>
+                            <span>Neural Scene Representation</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- Learning -->
+                <div class="learning-section">
+                    <h3 class="subsection-title">Currently Learning</h3>
+                    <div class="learning-grid">
+                        <div class="learning-item">
+                            <div class="learning-check"><i class="fas fa-spinner fa-pulse"></i></div>
+                            <div><strong>PyTorch</strong> — building hands-on deep learning projects</div>
+                        </div>
+                        <div class="learning-item">
+                            <div class="learning-check"><i class="fas fa-spinner fa-pulse"></i></div>
+                            <div><strong>Deep Learning</strong> — CNNs, Transformers, and modern architectures</div>
+                        </div>
+                        <div class="learning-item">
+                            <div class="learning-check"><i class="fas fa-spinner fa-pulse"></i></div>
+                            <div><strong>Multimodal Models</strong> — exploring vision-language models and multimodal AI</div>
+                        </div>
+                        <div class="learning-item">
+                            <div class="learning-check"><i class="fas fa-spinner fa-pulse"></i></div>
+                            <div><strong>Paper Reading</strong> — NeurIPS, ICML, ICLR, KDD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Self-Assessment ===== -->
+        <section id="self-assessment" class="section">
+            <div class="container">
+                <h2 class="section-title">What I Bring</h2>
+                <p class="section-subtitle">
+                    Strengths that make me a good fit for a research lab
+                </p>
+
+                <div class="traits-grid">
+                    <div class="trait-card">
+                        <div class="trait-icon"><i class="fas fa-brain"></i></div>
+                        <h3>Strong Math Foundation</h3>
+                        <p>Deep understanding of the mathematical principles behind common ML models. Comfortable with probability, linear algebra, and optimization theory.</p>
+                    </div>
+                    <div class="trait-card">
+                        <div class="trait-icon"><i class="fas fa-tasks"></i></div>
+                        <h3>Reliable &amp; Responsible</h3>
+                        <p>Complete assigned tasks accurately and efficiently. Proactively consult literature and strive to resolve issues independently.</p>
+                    </div>
+                    <div class="trait-card">
+                        <div class="trait-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h3>Self-Motivated Learner</h3>
+                        <p>Regularly follow cutting-edge developments and recent papers. Keep an eye on open problems in the field and actively explore new ideas.</p>
+                    </div>
+                    <div class="trait-card">
+                        <div class="trait-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Proven Research Experience</h3>
+                        <p>Led an undergraduate innovation project, designed comparative experiments, and contributed to paper writing — building both execution and teamwork skills.</p>
+                    </div>
+                    <div class="trait-card">
+                        <div class="trait-icon"><i class="fas fa-search"></i></div>
+                        <h3>Meticulous &amp; Patient</h3>
+                        <p>Capable of independently setting up experimental environments, tuning hyperparameters, and interpreting results. Persistent in refining models through repeated debugging.</p>
+                    </div>
+                    <div class="trait-card">
+                        <div class="trait-icon"><i class="fas fa-sitemap"></i></div>
+                        <h3>Systematic Thinker</h3>
+                        <p>Excel at organizing data flows and algorithmic pipelines into clear, logical structures. Think before coding.</p>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <h3 class="subsection-title">Tools &amp; Technologies</h3>
+                <div class="tools-bar">
+                    <span class="tool-tag"><i class="fab fa-python"></i> Python</span>
+                    <span class="tool-tag"><i class="fas fa-code"></i> C / C++</span>
+                    <span class="tool-tag"><i class="fas fa-fire"></i> PyTorch</span>
+                    <span class="tool-tag"><i class="fas fa-code-branch"></i> Git / GitHub</span>
+                    <span class="tool-tag"><i class="fas fa-file-alt"></i> LaTeX</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">
+                    I'm looking for a research lab to join — if you're recruiting undergraduate researchers, I'd love to hear from you!
+                </p>
+
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <a href="mailto:2024141460317@stu.scu.edu.cn">2024141460317@stu.scu.edu.cn</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+86 156-8070-0621</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-university"></i>
+                        <h4>University</h4>
+                        <p>Sichuan University, Chengdu</p>
+                    </div>
+                </div>
+
+                <div class="contact-cta">
+                    <p>
+                        <i class="fas fa-hand-sparkles"></i>
+                        I am actively seeking to <strong>join a research lab</strong> in AI, Data Mining, or Machine Learning.
+                        If you think my background and interests could be a good fit for your research, please feel free to reach out.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Huamin Ma · Sichuan University</p>
+                <p class="footer-quote">"The important thing is not to stop questioning." — Albert Einstein</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> 7fd42bfa43a1df7260f3231c43b73f46b1894be9

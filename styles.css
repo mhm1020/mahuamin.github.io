@@ -381,10 +381,12 @@ body {
 }
 .course-item .course-icon {
     width: 20px;
+    height: 20px;
     text-align: center;
     color: var(--primary);
     font-size: 0.85rem;
     flex-shrink: 0;
+    stroke: var(--primary);
 }
 .course-item .score { font-weight: 700; color: var(--primary); font-size: 0.95rem; }
 

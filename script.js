@@ -122,8 +122,4 @@ document.querySelectorAll(
     animate();
 })();
 
-// ===== CV Button =====
-document.getElementById('cvBtn')?.addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('CV available upon request — feel free to email me!');
-});
+

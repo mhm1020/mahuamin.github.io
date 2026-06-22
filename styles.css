@@ -308,6 +308,24 @@ body {
 .stat-value small { font-size: 0.85rem; font-weight: 400; color: var(--text-muted); }
 .stat-label { font-size: 0.85rem; color: var(--text-muted); margin-top: 0.15rem; }
 
+.stat-value-english {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    flex-wrap: wrap;
+}
+.stat-value-english strong {
+    color: var(--text);
+    font-weight: 700;
+}
+.stat-divider {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
 /* Education */
 .edu-timeline { margin-bottom: 1rem; }
 .edu-card {

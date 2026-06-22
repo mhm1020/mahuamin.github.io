@@ -60,7 +60,7 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
 
 document.querySelectorAll(
-    '.research-card, .interest-card, .skill-category, .edu-card, .stat-card, .contact-card, .section'
+    '.research-card, .interest-card, .trait-card, .edu-card, .stat-card, .contact-card, .context-card, .section'
 ).forEach(el => {
     el.classList.add('fade-in');
     observer.observe(el);
@@ -122,8 +122,4 @@ document.querySelectorAll(
     animate();
 })();
 
-// ===== CV Button =====
-document.getElementById('cvBtn')?.addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('CV coming soon! Feel free to email me for more details.');
-});
+

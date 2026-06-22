@@ -13,6 +13,13 @@ Visit: **[mhm1020.github.io/mahuamin.github.io](https://mhm1020.github.io/mahuam
 - 📊 GPA: 3.71/4.0 (Top 15%)
 - 🏆 National Endeavor Scholarship
 
+## Tech Stack
+
+- HTML5 / CSS3 / Vanilla JavaScript
+- Responsive Design
+- Particle.js-like background animation
+- GitHub Pages + GitHub Actions CI/CD
+
 ## Local Preview
 
 Open `index.html` in your browser, or run:

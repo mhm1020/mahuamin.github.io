@@ -1,6 +1,6 @@
 # Huamin Ma · Personal Academic Homepage
 
-My personal academic homepage showcasing my background, research experience, and interests in Computer Vision and Natural Language Processing.
+My personal academic homepage showcasing my background, research experience, and interests in data mining,Multimodal Learning and world model.
 
 ## Live Site
 

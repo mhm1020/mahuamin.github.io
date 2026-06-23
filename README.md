@@ -9,7 +9,7 @@ Visit: **[mhm1020.github.io/mahuamin.github.io](https://mhm1020.github.io/mahuam
 ## About Me
 
 - 🎓 CS Undergraduate @ Sichuan University
-- 🤖 Interested in CV, NLP, and Machine Learning
+- 🤖 Interested in Multimodal Learning, data mining, and world model
 - 📊 GPA: 3.71/4.0 (Top 15%)
 - 🏆 National Endeavor Scholarship
 

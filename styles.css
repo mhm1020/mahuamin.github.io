@@ -221,6 +221,9 @@ body {
     font-size: 0.88rem;
     font-weight: 500;
     transition: all 0.25s;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: 1.4;
 }
 .hero-link-item:hover {
     border-color: var(--primary);
@@ -387,6 +390,12 @@ body {
     font-size: 0.85rem;
     flex-shrink: 0;
     stroke: var(--primary);
+}
+.course-item .course-icon-img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    object-fit: contain;
 }
 .course-item .score { font-weight: 700; color: var(--primary); font-size: 0.95rem; }
 
@@ -659,6 +668,78 @@ body {
     background: var(--primary-light);
 }
 .tool-tag i { font-size: 0.85rem; }
+
+/* Skills Showcase */
+.skills-showcase {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+}
+.skill-highlight {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 1.75rem 1.25rem;
+    text-align: center;
+    transition: all 0.3s;
+}
+.skill-highlight:hover {
+    border-color: var(--primary);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+.skill-highlight .skill-icon-big {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 1.5rem;
+    margin-bottom: 0.85rem;
+}
+.skill-highlight h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: var(--text);
+}
+.skill-highlight p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* Copy toast */
+.copy-toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1E293B;
+    color: #fff;
+    padding: 0.65rem 1.5rem;
+    border-radius: 100px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.copy-toast.show {
+    opacity: 1;
+}
+
+/* Hero link button reset */
+.hero-link-item button,
+button.hero-link-item {
+    cursor: pointer;
+    font-family: inherit;
+}
 
 /* Contact */
 .contact-grid {

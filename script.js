@@ -122,4 +122,26 @@ document.querySelectorAll(
     animate();
 })();
 
+// ===== Email Copy =====
+const copyEmailBtn = document.getElementById('copyEmailBtn');
+if (copyEmailBtn) {
+    copyEmailBtn.addEventListener('click', () => {
+        const email = '2024141460317@stu.scu.edu.cn';
+        navigator.clipboard.writeText(email).then(() => {
+            let toast = document.querySelector('.copy-toast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.className = 'copy-toast';
+                document.body.appendChild(toast);
+            }
+            toast.textContent = 'Email copied! 2024141460317@stu.scu.edu.cn';
+            toast.classList.add('show');
+            clearTimeout(toast._timeout);
+            toast._timeout = setTimeout(() => {
+                toast.classList.remove('show');
+            }, 2000);
+        });
+    });
+}
+
 
